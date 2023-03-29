@@ -12,11 +12,16 @@ int main(void)
 {
 	int pass[100];
 	int i, sum, n;
+<<<<<<< HEAD
 
 	sum = 0;
 
 	srand(time(NULL));
 
+=======
+	sum = 0;
+	srand(time(NULL));
+>>>>>>> e8b4987485af40e1747d8d9a0f7cc59c63431e78
 	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand() % 78;
@@ -30,6 +35,9 @@ int main(void)
 			break;
 		}
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> e8b4987485af40e1747d8d9a0f7cc59c63431e78
 	return (0);
 }
