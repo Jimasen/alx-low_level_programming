@@ -1,8 +1,5 @@
 #include "main.h"
-<<<<<<< HEAD
-=======
 
->>>>>>> e8b4987485af40e1747d8d9a0f7cc59c63431e78
 /**
  * puts2 - function should print only one character out of two
  * starting with the first one
@@ -15,10 +12,7 @@ void puts2(char *str)
 	int t = 0;
 	char *y = str;
 	int o;
-<<<<<<< HEAD
 
-=======
->>>>>>> e8b4987485af40e1747d8d9a0f7cc59c63431e78
 	while (*y != '\0')
 	{
 		y++;
