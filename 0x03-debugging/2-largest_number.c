@@ -1,29 +1,14 @@
-#include "main.h"
+#include"main.h"
+
 /**
-* largest_number - returns the largest of 3 numbers
-* @a: first integer
-* @b: second integer
-* @c: third integer
-* Return: largest number
-*/
-int largest_number(int a, int b, int c)
+ * _strlen_recursion - note: no _putchar in local test
+ * @s: input
+ * Return: Always 0 (Success)
+ */
+int _strlen_recursion(char *s)
 {
-int largest;
-if (a > b && a > c)
-{
-largest = a;
-}
-else if (a > b && c > a)
-{
-largest = c;
-}
-else if (b > c)
-{
-largest = b;
-}
-else
-{
-largest = c;
-}
-return (largest);
+	if (*s == '\0')
+		return (0);
+	else
+		return (1 + _strlen_recursion(s + 1));
 }
